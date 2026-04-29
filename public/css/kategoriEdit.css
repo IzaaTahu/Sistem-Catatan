@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#F6F7FB;
+}
+
+.container{
+    margin-left:230px;
+    margin-top:80px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+    max-width:500px;
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:8px 14px;
+    border-radius:8px;
+    font-size:14px;
+    display:inline-block;
+}
+
+.btn-primary{
+    background:#6C9CF5;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#4f83e8;
+}
+
+.error-message{
+    background:#FFE5E5;
+    color:#b30000;
+    padding:10px;
+    border-radius:8px;
+    margin-top:15px;
+}
+
+form{
+    margin-top:20px;
+}
+
+input[type="text"]{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:14px;
+    margin-bottom:12px;
+}
+
+input[type="text"]:focus{
+    outline:none;
+    border-color:#6C9CF5;
+}
+
+button{
+    padding:8px 16px;
+    background:#F7B267;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#f59c3d;
+}

@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F6F7FB;
+}
+
+.main-content{
+    margin-left:230px;
+    margin-top:60px;
+    padding:30px;
+}
+
+.dashboard-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+    max-width:600px;
+}
+
+.dashboard-card h3{
+    margin-bottom:10px;
+    color:#333;
+}
+
+.dashboard-card p{
+    color:#666;
+}
